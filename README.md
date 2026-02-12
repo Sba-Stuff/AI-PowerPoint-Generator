@@ -6,7 +6,7 @@
 [![LM Studio](https://img.shields.io/badge/Integration-LM%20Studio-orange.svg)](https://lmstudio.ai/)
 
 <div align="center">
-  <img src="docs/images/banner.png" alt="AI PowerPoint Generator Banner" width="600px">
+  <img src="examples/Screenshot (3).png" alt="AI PowerPoint Generator Banner" width="600px">
   <p><em>Transform simple titles into complete PowerPoint presentations using local LLMs</em></p>
 </div>
 
