@@ -53,10 +53,24 @@ All AI processing runs **locally** on your machine through LM Studio - no API ke
 
 ```powershell
 # Clone the repository
-git clone https://github.com/yourusername/ai-powerpoint-generator.git
+git clone https://github.com/Sba-Stuff/ai-powerpoint-generator.git
 
 # Navigate to directory
 cd ai-powerpoint-generator
 
 # Run the script (you may need to bypass execution policy)
 .\AI-PowerPoint-Generator.ps1
+```
+
+### Onliner Quick Run
+Copy, paste in notepad. Save this as bat file along with the powershell script. Double click bat file to run.
+```powershell
+powershell -ExecutionPolicy Bypass -File "AI-PowerPoint-Generator.ps1"
+```
+
+### Things to Make Sure
+1. Open LM Studio
+2. Load your model (e.g., liquid/lfm2-1.2b)
+3. Modify variables (ip, model, maxtokens, temperature) and prompt based on your choice.
+4. Click "Start Server" button
+5. Verify server runs (either at localhost:1234, or your set server IP. In this examplple, it is at http://192.168.10.4:1234)
