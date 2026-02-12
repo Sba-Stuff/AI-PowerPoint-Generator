@@ -1,0 +1,1 @@
+powershell -ExecutionPolicy Bypass -File "AI-PowerPoint-Generator.ps1"
